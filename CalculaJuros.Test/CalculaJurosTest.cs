@@ -21,7 +21,7 @@ namespace CalculaJuros.Test
             ShowMeTheCodeController showMeTheCodeController = new ShowMeTheCodeController();
             var response = showMeTheCodeController.Get();
 
-            Assert.AreEqual("https://cdcunha.visualstudio.com/DefaultCollection/CalculaJuros/_git/CalculaJuros", response.Value);
+            Assert.AreEqual("https://github.com/cdcunha/CalculaJuros", response.Value);
         }
     }
 }

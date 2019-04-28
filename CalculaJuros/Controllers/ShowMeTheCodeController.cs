@@ -10,7 +10,7 @@ namespace CalculaJuros.Controllers
         [HttpGet()]
         public ActionResult<string> Get()
         {
-            return @"https://cdcunha.visualstudio.com/DefaultCollection/CalculaJuros/_git/CalculaJuros";
+            return @"https://github.com/cdcunha/CalculaJuros";
         }
     }
 }
